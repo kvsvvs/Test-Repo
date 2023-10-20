@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;700;900&display=swap");
+
+/* Global Form Styling */
+.formContainer {
+  background: #ffffff !important;
+  padding: 30px 40px !important;
+  border-radius: 15px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important;
+  width: 100% !important;
+  max-width: 500px !important;
+  margin: 60px auto !important;
+  font-family: "Lato", sans-serif !important;
+}
+
+.formItem {
+  margin-bottom: 25px !important;
+  position: relative !important;
+}
+
+/* Input Styling */
+.inputField,
+.passwordField {
+  width: 100% !important;
+  padding: 12px 15px !important;
+  border-radius: 10px !important;
+  border: 1px solid #e1e1e1 !important;
+  font-size: 1em !important;
+  transition: all 0.3s ease !important;
+  background-color: #f6f6f6 !important;
+}
+
+.inputField:hover,
+.passwordField:hover {
+  border-color: #1890ff !important;
+}
+
+.inputField:focus,
+.passwordField:focus {
+  border-color: #1071c5 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(24, 144, 255, 0.1) !important;
+}
+
+/* Button Styling */
+.submitButton {
+  padding: 12px 30px !important;
+  font-weight: 700 !important;
+  border-radius: 25px !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease-in-out !important;
+  text-transform: uppercase !important;
+  font-size: 0.95em !important;
+  background-color: #1890ff !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 7px 20px rgba(24, 144, 255, 0.2) !important;
+  letter-spacing: 1px !important;
+}
+
+.submitButton:hover {
+  background-color: #1071c5 !important;
+  transform: translateY(-2px) !important;
+}
+
+.submitButton:active {
+  transform: translateY(1px) !important;
+}
+
+/* Modal Styling */
+.modalContainer {
+  max-width: 540px !important;
+  margin: 50px auto !important;
+  padding: 30px !important;
+  background: #ffffff !important;
+  border-radius: 15px !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12) !important;
+}
+
+.modalTitle {
+  font-family: "Playfair Display", serif !important;
+  font-size: 2em !important;
+  color: #343434 !important;
+  margin-bottom: 20px !important;
+  border-bottom: 1px solid #e1e1e1 !important;
+  padding-bottom: 15px !important;
+}
+
+.recaptchaContainer {
+  margin-bottom: 25px !important;
+}

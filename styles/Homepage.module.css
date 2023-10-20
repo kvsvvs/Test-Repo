@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;700;900&display=swap");
+
+.layout {
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  padding: 20px 50px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 2.2em;
+  color: #1890ff;
+  letter-spacing: 1px;
+}
+
+.nav a,
+.nav button {
+  margin: 0 15px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background 0.3s ease;
+}
+
+.nav a:hover,
+.nav button:hover {
+  background: rgba(24, 144, 255, 0.1);
+}
+
+.signinButton,
+.signupButton {
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 25px; /* Rounded corners */
+  padding: 10px 25px; /* Ample padding for a good clickable area */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover and active states */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-transform: uppercase; /* Makes the text appear more button-like */
+  font-size: 0.9em; /* Adjust as needed */
+}
+
+.signinButton {
+  background-color: transparent;
+  color: #1890ff;
+  border: 2px solid #1890ff; /* Border to make it visible against different backgrounds */
+}
+
+.signupButton {
+  background-color: #1890ff;
+  color: #ffffff;
+}
+
+/* Hover states to give user feedback */
+.signinButton:hover {
+  background-color: #1890ff;
+  color: #ffffff;
+}
+
+.signupButton:hover {
+  background-color: #1071c5; /* Slightly darker shade for hover */
+}
+
+/* Active (on click) states */
+.signinButton:active,
+.signupButton:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow when active */
+  transform: translateY(1px); /* Button appears to be pressed down slightly */
+}
+
+.content {
+  padding: 100px 50px;
+}
+
+.carousel {
+  max-width: 800px;
+  margin: 100px auto 0 auto;
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+
+.features {
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features div {
+  text-align: center;
+  width: calc(33.33% - 20px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  padding: 20px;
+  background: #fff;
+  transition: transform 0.3s ease;
+}
+
+.features div:hover {
+  transform: translateY(-10px);
+}
+
+.features img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.footer {
+  background: #001529;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerContent {
+  display: flex;
+  align-items: center;
+}
+
+.footerContent div {
+  margin-right: 50px;
+}
+
+.footerContent nav a {
+  margin: 0 20px;
+  font-weight: 500;
+}
+
+.footerBar {
+  text-align: center;
+  padding: 20px 0;
+  background: #000c17;
+  color: #8a8a8a;
+  font-size: 14px;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "client_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "13.5.6",
+    "@reduxjs/toolkit": "^1.9.7",
+    "antd": "^5.9.4",
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "firebase": "^10.4.0",
+    "next-redux-wrapper": "^8.1.0",
+    "react-redux": "^8.1.3",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6"
+  }
+}
